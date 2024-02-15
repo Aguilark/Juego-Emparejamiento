@@ -1,0 +1,120 @@
+/* CSS Document */
+
+body {
+    background-image: url("../img/fondo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: orange;
+    font-weight: bold;
+	margin-top:10px;
+    transition: color 0.3s, border-bottom 0.3s;
+    font-family: "Honk-Regular-VariableFont_MORF,SHLN";
+}
+
+.tabla {
+    position: relative;
+    background-color: green;
+    margin: auto;
+    margin-top: -30px;
+	border-collapse: collapse;
+}
+
+td {
+    position: relative;
+    background-color: #C7E7AF;
+    overflow: hidden;
+    padding-bottom: 220px;
+    padding-left: 250px;
+    cursor: pointer;
+    background-image: url(../img/fondoceldas.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+	border: 2px solid black;
+}
+
+td:hover {
+    background-image: url(../img/bomba.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+td:active {
+    background-image: url(../img/birds1.png); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#celda2:active {
+    background-image: url(../img/birds2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#celda3:active {
+    background-image: url(../img/birds3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #333;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#backhome {
+    color: orange;
+    text-decoration: none;
+}
+
+#backhome:hover {
+    text-decoration: underline;
+}
+
+.kcopy{
+	text-align: center;
+	text-decoration: none;
+	font-style: italic;
+}
+
+
+#backhome {
+    color: orange;
+    text-decoration: none;
+}
+
+#backhome:hover {
+    text-decoration: underline;
+}
+
+
+@font-face {
+    font-family: "Honk-Regular-VariableFont_MORF,SHLN";
+    src: url("../fonts/Honk-Regular-VariableFont_MORF,SHLN.ttf") format('truetype');
+}
